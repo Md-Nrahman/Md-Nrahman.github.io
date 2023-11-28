@@ -4,10 +4,10 @@ import { IoCloudDownloadOutline } from "react-icons/io5";
 
 const Introduction = () => {
   return (
-    <section className="h-[calc(90vh-2.5rem)] lg:px-32 md:px-14 px-7 bg-gray-800">
+    <section className="h-[calc(95vh-2.5rem)] lg:px-32 md:px-14 px-7 bg-gray-800">
       <div className="grid md:grid-cols-2 h-full flex justify-center items-center">
         <div className="flex justify-center md:order-1">
-          <img src={ComputerImg} className="w-[50%] " />
+          <img src={ComputerImg} className="w-[80%] " />
         </div>
         <div className="text-white space-y-6 ">
           <div className="font-bold">

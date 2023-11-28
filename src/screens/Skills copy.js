@@ -22,7 +22,7 @@ const Skills = () => {
           A PROBLEM IS A CHANCE FOR YOU TO DO YOUR BEST.
         </p>
         <h1 className="font-bold text-5xl">
-          <span className="text-[#66bb6a]">&#60;</span>TechnicalSkills
+          <span className="text-">&#60;</span>TechnicalSkills
           <span className="text-[#66bb6a]">&#47;&#62;</span>
         </h1>
         <h1 className="text-base">
