@@ -1,0 +1,58 @@
+import React from "react";
+import Bootstrap from "../assets/images/bootstrap.png";
+import Css from "../assets/images/css3.png";
+import Express from "../assets/images/express.png";
+import Figma from "../assets/images/figma.png";
+import Git from "../assets/images/git.png";
+import Html from "../assets/images/html5.png";
+import Illustrator from "../assets/images/illustrator.png";
+import Javascript from "../assets/images/javascript.png";
+import MongoDB from "../assets/images/mongodb.png";
+import Node from "../assets/images/node.png";
+import Photoshop from "../assets/images/photoshop.png";
+import ReactImg from "../assets/images/react.png";
+import Tailwind from "../assets/images/tailwindcss.png";
+import VSCode from "../assets/images/vscode.webp";
+
+const Skills = () => {
+  return (
+    <section className="lg:px-32 px-14 flex flex-col justify-center bg-white min-h-screen">
+      <div className=" flex flex-col items-center w-5/6 lg:w-3/6 mx-auto space-y-6">
+        <p className="text-base">
+          A PROBLEM IS A CHANCE FOR YOU TO DO YOUR BEST.
+        </p>
+        <h1 className="font-bold text-6xl">Skills & Experience</h1>
+        <h1 className="text-base">
+          The main area of expertise is front end development (client side of
+          the web).
+        </h1>
+        <p className="text-base">
+          HTML, CSS, JS, building small and medium web applications with Vue or
+          React, custom plugins, features, animations, and coding interactive
+          layouts. I have also full-stack developer experience with one of the
+          most popular open source CMS on the web - WordPress
+        </p>
+        <p className="text-base">Visit my Linkedin for more details.</p>
+      </div>
+
+      <div className="grid grid-cols-3 md:grid-cols-7 w-5/6 lg:w-4/6 mx-auto items-center gap-y-16 md:gap-x-16 gap-8 my-16">
+        <img src={Html} alt="Html" className="w-14 mx-auto" />
+        <img src={Css} alt="Css" className="w-16 mx-auto" />
+        <img src={Bootstrap} alt="Bootstrap" className="w-14 mx-auto" />
+        <img src={Tailwind} alt="Tailwind" className="w-24 mx-auto" />
+        <img src={Figma} alt="Figma" className="w-8 mx-auto" />
+        <img src={Javascript} alt="Javascript" className="w-14 mx-auto" />
+        <img src={ReactImg} alt="React" className="w-14 mx-auto" />
+        <img src={Node} alt="Node" className="w-14 mx-auto" />
+        <img src={Express} alt="Express" className="w-24 mx-auto" />
+        <img src={MongoDB} alt="MongoDB" className="w-14 mx-auto" />
+        <img src={VSCode} alt="VSCode" className="w-12 mx-auto" />
+        <img src={Git} alt="Git" className="w-12 mx-auto" />
+        <img src={Illustrator} alt="Illustrator" className="w-14 mx-auto" />
+        <img src={Photoshop} alt="Photoshop" className="w-14 mx-auto" />
+      </div>
+    </section>
+  );
+};
+
+export default Skills;

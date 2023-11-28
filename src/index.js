@@ -1,13 +1,17 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
+import Header from './screens/Header';
+import Introduction from './screens/Introduction';
+import Skills from './screens/Skills';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <Header />
+    <Introduction />
+    <Skills />
   </React.StrictMode>
 );
 
