@@ -6,6 +6,7 @@ import Header from "./screens/Header";
 import Introduction from "./screens/Introduction";
 import Skills from "./screens/Skills";
 import Experience from "./screens/Experience";
+import Projects from "./screens/Projects";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -14,6 +15,7 @@ root.render(
     <Introduction />
     <Skills />
     <Experience />
+    <Projects />
   </React.StrictMode>
 );
 
