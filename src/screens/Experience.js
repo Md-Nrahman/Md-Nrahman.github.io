@@ -3,16 +3,14 @@ import React from "react";
 const Experience = () => {
   return (
     <section className="lg:px-32 md:px-14 px-7 flex flex-col justify-center py-14 bg-gray-800 min-h-screen">
-      <h1 className="font-bold text-6xl text-center text-white mb-3">
+      <h1 className="font-bold md:text-5xl text-2xl text-center text-white mb-3">
         <span className="text-[#66bb6a]">&#60;</span>Experience
         <span className="text-[#66bb6a]">&#47;&#62;</span>
       </h1>
 
       <div className="grid md:grid-cols-2 gap-7">
         <div className="mt-8">
-          <h3 className="text-white font-medium text-xl text-center">
-            Job Experience
-          </h3>
+          <h3 className="text-white font-medium text-xl text-center">Job</h3>
           <ol class="relative border-l border-gray-200 dark:border-gray-700 mt-6">
             <li class="mb-10 ml-4">
               <div class="absolute w-3 h-3 bg-gray-200 rounded-full  -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
