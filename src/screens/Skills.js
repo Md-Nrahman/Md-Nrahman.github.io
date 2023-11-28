@@ -16,23 +16,29 @@ import VSCode from "../assets/images/vscode.webp";
 
 const Skills = () => {
   return (
-    <section className="lg:px-32 px-14 flex flex-col justify-center bg-white min-h-screen">
-      <div className=" flex flex-col items-center w-5/6 lg:w-3/6 mx-auto space-y-6">
+    <section className="lg:px-32 md:px-14 px-7 flex flex-col justify-center py-14 bg-gray-800 min-h-screen">
+      <div className=" flex flex-col items-center w-5/6 lg:w-3/6 mx-auto space-y-6 text-white">
         <p className="text-base">
           A PROBLEM IS A CHANCE FOR YOU TO DO YOUR BEST.
         </p>
-        <h1 className="font-bold text-6xl">Skills & Experience</h1>
+        <h1 className="font-bold text-6xl">
+          <span className="text-[#66bb6a]">&#60;</span>TechnicalSkills
+          <span className="text-[#66bb6a]">&#47;&#62;</span>
+        </h1>
         <h1 className="text-base">
           The main area of expertise is front end development (client side of
           the web).
         </h1>
-        <p className="text-base">
+        <p className="text-base text-center">
           HTML, CSS, JS, building small and medium web applications with Vue or
           React, custom plugins, features, animations, and coding interactive
           layouts. I have also full-stack developer experience with one of the
           most popular open source CMS on the web - WordPress
         </p>
-        <p className="text-base">Visit my Linkedin for more details.</p>
+        <p className="text-base font-semibold">
+          Visit my <span className="text-[#0077b5]">Linkedin</span> for more
+          details.
+        </p>
       </div>
 
       <div className="grid grid-cols-3 md:grid-cols-7 w-5/6 lg:w-4/6 mx-auto items-center gap-y-16 md:gap-x-16 gap-8 my-16">
