@@ -25,15 +25,13 @@ const Projects = () => {
                 <img class="w-full rounded-md" src={project?.image} />
                 <div class=" absolute inset-0 md:p-8 p-5 text-white flex flex-col">
                   <div class="relative">
-                    <h1 class="test__title text-xl font-bold mb-2">
-                      {project?.title}
-                    </h1>
-                    <p class="test__author font-sm text-xs font-light">
+                    <h1 class="text-xl font-bold mb-2">{project?.title}</h1>
+                    <p class="font-sm text-xs font-light">
                       {project?.description}
                     </p>
                   </div>
                   <div class="mt-auto">
-                    <span class="test__tag bg-white bg-opacity-60 py-1 flex items-center md:space-x-4 space-x-2 px-4 rounded-md text-gray-800">
+                    <span class="bg-white bg-opacity-80 py-1 flex items-center md:space-x-4 space-x-2 px-4 rounded-md text-gray-800">
                       {project?.techStack?.map((tech) => (
                         <img src={tech} alt={tech} className="h-4 mx-1" />
                       ))}

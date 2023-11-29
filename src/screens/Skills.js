@@ -22,17 +22,14 @@ const Skills = () => {
           <span className="text-[#66bb6a]">&#60;</span>TechnicalSkills
           <span className="text-[#66bb6a]">&#47;&#62;</span>
         </h1>
-        <h1 className="text-base">
+        <h1 className="md:text-base text-sm text-center text-gray-800">
           The main area of expertise is front end development (client side of
           the web).
         </h1>
-        <p className="text-base text-center">
-          HTML, CSS, JS, building small and medium web applications with Vue or
-          React, custom plugins, features, animations, and coding interactive
-          layouts. I have also full-stack developer experience with one of the
-          most popular open source CMS on the web - WordPress
+        <p className="md:text-base text-sm text-center text-gray-800">
+          I also Develop Full Stack Applications using MERN Stack.
         </p>
-        <p className="text-base font-semibold">
+        <p className="md:text-base text-sm text-center text-gray-800 font-semibold">
           Visit my <span className="text-[#0077b5]">Linkedin</span> for more
           details.
         </p>
