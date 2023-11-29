@@ -6,6 +6,7 @@ const ExperienceCard = ({
   designation,
   description,
   result,
+  degree,
 }) => {
   return (
     <li class="mb-10 ml-4">
@@ -16,7 +17,7 @@ const ExperienceCard = ({
           <span className="text-[#66bb6a] text-lg font-medium">
             {institution}
           </span>{" "}
-          <span className="text-xs">- {designation}</span>
+          <span className="text-xs">- {designation || degree}</span>
         </h5>
         <ul className="text-xs list-disc ml-4">
           {description?.map((desc) => (
