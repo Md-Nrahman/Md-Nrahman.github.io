@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.3b289e8f.css",
-    "main.js": "/static/js/main.2892c1ed.js",
+    "main.css": "/static/css/main.5e4f4135.css",
+    "main.js": "/static/js/main.a6d3af51.js",
     "static/js/787.7da95b79.chunk.js": "/static/js/787.7da95b79.chunk.js",
     "static/media/hyundai-car-exchange.png": "/static/media/hyundai-car-exchange.585dbba321fb31b24e5b.png",
     "static/media/ramadan-times.png": "/static/media/ramadan-times.923ff43672c302940587.png",
@@ -22,12 +22,12 @@
     "static/media/git.png": "/static/media/git.13ab150a918ba929c6b4.png",
     "static/media/javascript.png": "/static/media/javascript.c020c5a5690ad8deb294.png",
     "index.html": "/index.html",
-    "main.3b289e8f.css.map": "/static/css/main.3b289e8f.css.map",
-    "main.2892c1ed.js.map": "/static/js/main.2892c1ed.js.map",
+    "main.5e4f4135.css.map": "/static/css/main.5e4f4135.css.map",
+    "main.a6d3af51.js.map": "/static/js/main.a6d3af51.js.map",
     "787.7da95b79.chunk.js.map": "/static/js/787.7da95b79.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3b289e8f.css",
-    "static/js/main.2892c1ed.js"
+    "static/css/main.5e4f4135.css",
+    "static/js/main.a6d3af51.js"
   ]
 }
