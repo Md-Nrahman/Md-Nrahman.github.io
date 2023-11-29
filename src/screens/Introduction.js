@@ -1,5 +1,5 @@
 import React from "react";
-import ComputerImg from "../assets/computer.png";
+import ProfileImg from "../assets/images/profile.jpeg";
 import { IoCloudDownloadOutline } from "react-icons/io5";
 
 const Introduction = () => {
@@ -7,13 +7,17 @@ const Introduction = () => {
     <section className="h-[calc(95vh-2.5rem)] lg:px-32 md:px-14 px-7 bg-gray-800">
       <div className="grid md:grid-cols-2 h-full flex justify-center items-center">
         <div className="flex justify-center md:order-1">
-          <img src={ComputerImg} className="w-[80%] " />
+          <img
+            src={ProfileImg}
+            className="md:w-[40%] w-[60%] rounded-l-3xl rounded-b-3xl border-l-4 border-b-4 border-green-400"
+            alt="profile"
+          />
         </div>
         <div className="text-white space-y-6 ">
           <div className="font-bold">
             Hello, I'm
             <br />
-            <h3 className=" text-5xl">
+            <h3 className="text-3xl md:text-5xl">
               <span className="text-[#66bb6a]">Md. Naimur </span>Rahman
             </h3>
             {/* <br /> */}
