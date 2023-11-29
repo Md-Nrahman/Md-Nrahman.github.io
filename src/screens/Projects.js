@@ -20,26 +20,28 @@ const Projects = () => {
       <div className="w-full my-8">
         <div class="columns-1 md:columns-2">
           {projectInfo.map((project) => (
-            <div class="relative group: mb-4 before:content-[''] before:rounded-md before:absolute before:inset-0 before:bg-gray-700 before:bg-opacity-40">
-              <img class="w-full rounded-md" src={project?.image} />
-              <div class="test__body absolute inset-0 p-8 text-white flex flex-col">
-                <div class="relative">
-                  <h1 class="test__title text-xl font-bold mb-2">
-                    {project?.title}
-                  </h1>
-                  <p class="test__author font-sm text-xs font-light">
-                    {project?.description}
-                  </p>
-                </div>
-                <div class="mt-auto">
-                  <span class="test__tag bg-white bg-opacity-60 py-1 flex items-center space-x-4 px-4 rounded-md text-black">
-                    {project?.techStack?.map((tech) => (
-                      <img src={tech} alt={tech} className="h-4 mx-1" />
-                    ))}
-                  </span>
+            <a href={project?.url} target="_blank">
+              <div class="relative group: mb-4 before:content-[''] before:rounded-md before:absolute before:inset-0 before:bg-gray-700 before:bg-opacity-40">
+                <img class="w-full rounded-md" src={project?.image} />
+                <div class=" absolute inset-0 md:p-8 p-5 text-white flex flex-col">
+                  <div class="relative">
+                    <h1 class="test__title text-xl font-bold mb-2">
+                      {project?.title}
+                    </h1>
+                    <p class="test__author font-sm text-xs font-light">
+                      {project?.description}
+                    </p>
+                  </div>
+                  <div class="mt-auto">
+                    <span class="test__tag bg-white bg-opacity-60 py-1 flex items-center space-x-4 px-4 rounded-md text-black">
+                      {project?.techStack?.map((tech) => (
+                        <img src={tech} alt={tech} className="h-4 mx-1" />
+                      ))}
+                    </span>
+                  </div>
                 </div>
               </div>
-            </div>
+            </a>
           ))}
         </div>
       </div>
