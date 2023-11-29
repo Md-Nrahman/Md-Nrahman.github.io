@@ -2,7 +2,6 @@ import React from "react";
 import Bootstrap from "../assets/images/bootstrap.png";
 import Css from "../assets/images/css3.png";
 import Express from "../assets/images/express.png";
-import Figma from "../assets/images/figma.png";
 import Git from "../assets/images/git.png";
 import Html from "../assets/images/html5.png";
 import Illustrator from "../assets/images/illustrator.png";
@@ -13,6 +12,7 @@ import Photoshop from "../assets/images/photoshop.png";
 import ReactImg from "../assets/images/react.png";
 import Tailwind from "../assets/images/tailwindcss.png";
 import VSCode from "../assets/images/vscode.webp";
+import NextJS from "../assets/images/nextjs.png";
 
 const Skills = () => {
   return (
@@ -43,9 +43,9 @@ const Skills = () => {
         <img src={Css} alt="Css" className="w-16 mx-auto" />
         <img src={Bootstrap} alt="Bootstrap" className="w-14 mx-auto" />
         <img src={Tailwind} alt="Tailwind" className="w-24 mx-auto" />
-        <img src={Figma} alt="Figma" className="w-8 mx-auto" />
         <img src={Javascript} alt="Javascript" className="w-14 mx-auto" />
         <img src={ReactImg} alt="React" className="w-14 mx-auto" />
+        <img src={NextJS} alt="NextJS" className="w-14 mx-auto" />
         <img src={Node} alt="Node" className="w-14 mx-auto" />
         <img src={Express} alt="Express" className="w-24 mx-auto" />
         <img src={MongoDB} alt="MongoDB" className="w-14 mx-auto" />
