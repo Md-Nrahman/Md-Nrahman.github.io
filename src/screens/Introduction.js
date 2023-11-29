@@ -1,8 +1,16 @@
 import React from "react";
 import ProfileImg from "../assets/images/profile.jpeg";
 import { IoCloudDownloadOutline } from "react-icons/io5";
+import Resume from "../assets/files/Md Naimur Rahman.pdf";
 
 const Introduction = () => {
+  const downloadResume = () => {
+    //file is in the src folder
+    const link = document.createElement("a");
+    link.href = Resume;
+    link.click();
+  };
+
   return (
     <section className="h-[calc(95vh-2.5rem)] lg:px-32 md:px-14 px-7 bg-gray-800">
       <div className="grid md:grid-cols-2 h-full flex justify-center items-center">
@@ -29,7 +37,10 @@ const Introduction = () => {
             experiences.
           </p>
 
-          <button className="text-white md:text-base flex justify-center items-center gap-2 text-sm border border-[#66bb6a] lg:px-5 px-3 py-2 rounded-md font-medium  bg-[#66bb6a] hover:bg-transparent">
+          <button
+            onClick={downloadResume}
+            className="text-white md:text-base flex justify-center items-center gap-2 text-sm border border-[#66bb6a] lg:px-5 px-3 py-2 rounded-md font-medium  bg-[#66bb6a] hover:bg-transparent"
+          >
             <IoCloudDownloadOutline /> Resume
           </button>
         </div>
