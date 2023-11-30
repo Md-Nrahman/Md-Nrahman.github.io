@@ -4,8 +4,9 @@ module.exports = {
   theme: {
     fontFamily: {
       southam: ["Southam", "sans-serif"],
+      poppins: ["Poppins", "sans-serif"],
     },
     extend: {},
   },
   plugins: [],
-}
+};

@@ -5,8 +5,8 @@ import ExperienceCard from "../components/ExperienceCard";
 
 const Experience = () => {
   return (
-    <section className="lg:px-32 md:px-14 px-7 flex flex-col justify-center py-14 bg-gray-800 min-h-screen">
-      <h1 className="font-bold md:text-5xl text-2xl text-center text-white mb-3">
+    <section className="lg:px-32 md:px-14 px-7 flex flex-col justify-center py-14 bg-gray-800 min-h-screen font-poppins">
+      <h1 className="font-extrabold md:text-5xl text-2xl text-center text-white mb-3">
         <span className="text-[#66bb6a]">&#60;</span>Experience
         <span className="text-[#66bb6a]">&#47;&#62;</span>
       </h1>

@@ -17,11 +17,11 @@ const Introduction = () => {
         <div className="flex justify-center md:order-1">
           <img
             src={ProfileImg}
-            className="md:w-[40%] w-[60%] rounded-l-3xl rounded-b-3xl border-l-4 border-b-4 border-green-400"
+            className="md:w-[40%] w-[60%] rounded-l-3xl rounded-b-3xl border-l-4 border-b-4 border-green-500/80"
             alt="profile"
           />
         </div>
-        <div className="text-white space-y-6 ">
+        <div className="text-white space-y-6 font-poppins">
           <div className="font-bold">
             Hello, I'm
             <br />

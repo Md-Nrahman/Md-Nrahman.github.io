@@ -4,5 +4,10 @@
 
 @font-face {
   font-family: "Southam";
-  src: url("./assets/fonts/Southam Demo.otf ");
+  src: url("./assets/fonts/Southam Demo.otf");
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url("./assets/fonts/Poppins/Poppins-Regular.ttf");
 }
