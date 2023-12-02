@@ -8,6 +8,8 @@ const Introduction = () => {
   const downloadResume = () => {
     const link = document.createElement("a");
     link.href = Resume;
+    link.target = "_blank";
+    link.download = "Md Naimur Rahman.pdf";
     link.click();
   };
 
