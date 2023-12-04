@@ -8,6 +8,8 @@ import MongoDBImg from "../assets/images/mongodb.png";
 import NextJS from "../assets/images/nextjs.png";
 import HyundaiExchange from "../assets/images/projects/hyundai-car-exchange.png";
 import RamadanTimes from "../assets/images/projects/ramadan-times.png";
+import CustomsVatTax from "../assets/images/projects/customs-vat-tax.png";
+import Wasa from "../assets/images/projects/wasa.png";
 
 export const projectInfo = [
   {
@@ -17,6 +19,22 @@ export const projectInfo = [
     url: "https://exchangehyundai.ftl.net.bd/",
     image: HyundaiExchange,
     techStack: [HtmlImg, TailwindImg, NextJS],
+  },
+  {
+    title: "Wasa Meter Reading",
+    description:
+      "A web application to monitor the meter reading of the water supply system of Dhaka WASA",
+    url: "https://wasa.suffixit.com:14001/login",
+    image: Wasa,
+    techStack: [HtmlImg, CSSImg, ReactImg],
+  },
+  {
+    title: "Custom Vat Tax",
+    description:
+      "A web application to upload and download custom vat tax related documents",
+    url: "http://customsvattaxbd.com:7071/",
+    image: CustomsVatTax,
+    techStack: [HtmlImg, CSSImg, NextJS, NodeImg, ExpressImg, MongoDBImg],
   },
   {
     title: "Ramadan Times",

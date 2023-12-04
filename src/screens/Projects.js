@@ -15,11 +15,15 @@ const Projects = () => {
       </div>
 
       <div className="w-full my-8">
-        <div class="columns-1 md:columns-2">
+        <div class="columns-1 md:columns-2 lg:columns-3">
           {projectInfo.map((project) => (
-            <a href={project?.url} target="_blank">
+            <a href={project?.url} target="_blank" rel="noreferrer">
               <div class="relative group: mb-4 before:content-[''] before:rounded-md before:absolute before:inset-0 before:bg-gray-700 before:bg-opacity-40">
-                <img class="w-full rounded-md" src={project?.image} />
+                <img
+                  class="w-full rounded-md"
+                  src={project?.image}
+                  alt={project?.title}
+                />
                 <div class=" absolute inset-0 md:p-8 p-5 text-white flex flex-col">
                   <div class="relative">
                     <h1 class="text-xl font-bold mb-2">{project?.title}</h1>

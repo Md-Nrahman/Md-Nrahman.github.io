@@ -13,7 +13,6 @@ import ReactImg from "../assets/images/react.png";
 import Tailwind from "../assets/images/tailwindcss.png";
 import VSCode from "../assets/images/vscode.webp";
 import NextJS from "../assets/images/nextjs.png";
-import DoubleBubble from "../assets/images/double-bubble.png";
 
 const Skills = () => {
   return (
@@ -34,8 +33,16 @@ const Skills = () => {
           I also Develop Full Stack Applications using MERN Stack.
         </p>
         <p className="md:text-base text-sm text-center text-gray-800 font-semibold">
-          Visit my <span className="text-[#0077b5]">Linkedin</span> for more
-          details.
+          Visit my{" "}
+          <a
+            className="text-[#0077b5]"
+            href="https://www.linkedin.com/in/mdnrahman/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Linkedin
+          </a>{" "}
+          for more details.
         </p>
       </div>
 
