@@ -1,10 +1,12 @@
 {
   "files": {
-    "main.css": "/static/css/main.f4470532.css",
-    "main.js": "/static/js/main.59b398f3.js",
+    "main.css": "/static/css/main.1eefd073.css",
+    "main.js": "/static/js/main.87950eea.js",
     "static/js/787.7da95b79.chunk.js": "/static/js/787.7da95b79.chunk.js",
     "static/media/hyundai-car-exchange.png": "/static/media/hyundai-car-exchange.585dbba321fb31b24e5b.png",
+    "static/media/wasa.png": "/static/media/wasa.f75a171112a6b0431d1f.png",
     "static/media/ramadan-times.png": "/static/media/ramadan-times.923ff43672c302940587.png",
+    "static/media/customs-vat-tax.png": "/static/media/customs-vat-tax.a1e983fd430a3fa26748.png",
     "static/media/Poppins-Regular.ttf": "/static/media/Poppins-Regular.35d26b781dc5fda684cc.ttf",
     "static/media/Md Naimur Rahman.pdf": "/static/media/Md Naimur Rahman.6107c9a62290825ec3a5.pdf",
     "static/media/react.png": "/static/media/react.73dbb5bcec516da82694.png",
@@ -18,19 +20,18 @@
     "static/media/express.png": "/static/media/express.7a98f3e44d024e880b83.png",
     "static/media/shape.png": "/static/media/shape.773ef27d2eed99fe18d2.png",
     "static/media/Southam Demo.otf": "/static/media/Southam Demo.d51836cec7e6dbc4d3aa.otf",
-    "static/media/double-bubble.png": "/static/media/double-bubble.0694bcab931c5d2c1b71.png",
     "static/media/nextjs.png": "/static/media/nextjs.a725f5cb51998c30c03a.png",
     "static/media/tailwindcss.png": "/static/media/tailwindcss.37bd124a06d8d3842c67.png",
     "static/media/css3.png": "/static/media/css3.9fa1c3f36eb5f2a061ba.png",
     "static/media/git.png": "/static/media/git.13ab150a918ba929c6b4.png",
     "static/media/javascript.png": "/static/media/javascript.c020c5a5690ad8deb294.png",
     "index.html": "/index.html",
-    "main.f4470532.css.map": "/static/css/main.f4470532.css.map",
-    "main.59b398f3.js.map": "/static/js/main.59b398f3.js.map",
+    "main.1eefd073.css.map": "/static/css/main.1eefd073.css.map",
+    "main.87950eea.js.map": "/static/js/main.87950eea.js.map",
     "787.7da95b79.chunk.js.map": "/static/js/787.7da95b79.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f4470532.css",
-    "static/js/main.59b398f3.js"
+    "static/css/main.1eefd073.css",
+    "static/js/main.87950eea.js"
   ]
 }
