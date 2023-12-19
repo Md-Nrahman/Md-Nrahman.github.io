@@ -1,15 +1,16 @@
-import HtmlImg from "../assets/images/html5.png";
 import CSSImg from "../assets/images/css3.png";
-import ReactImg from "../assets/images/react.png";
-import TailwindImg from "../assets/images/tailwindcss.png";
-import NodeImg from "../assets/images/node.png";
 import ExpressImg from "../assets/images/express.png";
+import HtmlImg from "../assets/images/html5.png";
 import MongoDBImg from "../assets/images/mongodb.png";
 import NextJS from "../assets/images/nextjs.png";
+import NodeImg from "../assets/images/node.png";
+import CustomsVatTax from "../assets/images/projects/customs-vat-tax.png";
 import HyundaiExchange from "../assets/images/projects/hyundai-car-exchange.png";
 import RamadanTimes from "../assets/images/projects/ramadan-times.png";
-import CustomsVatTax from "../assets/images/projects/customs-vat-tax.png";
+import SMSGateway from "../assets/images/projects/sms-gateway.png";
 import Wasa from "../assets/images/projects/wasa.png";
+import ReactImg from "../assets/images/react.png";
+import TailwindImg from "../assets/images/tailwindcss.png";
 
 export const projectInfo = [
   {
@@ -19,6 +20,14 @@ export const projectInfo = [
     url: "https://exchangehyundai.ftl.net.bd/",
     image: HyundaiExchange,
     techStack: [HtmlImg, TailwindImg, NextJS],
+  },
+  {
+    title: "Suffix IT SMS Gateway",
+    description:
+      "A dynamic web application for sending bulk SMS to the customers",
+    url: "https://bulkmsg.suffixit.com/",
+    image: SMSGateway,
+    techStack: [HtmlImg, ReactImg],
   },
   {
     title: "Wasa Meter Reading",

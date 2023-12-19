@@ -32,7 +32,7 @@ const Projects = () => {
                     </p>
                   </div>
                   <div class="mt-auto">
-                    <span class="bg-white bg-opacity-80 py-1 flex items-center md:space-x-4 space-x-2 px-4 rounded-md text-gray-800">
+                    <span class="bg-white bg-opacity-80 py-1 flex items-center justify-center md:space-x-4 space-x-2 px-4 rounded-md text-gray-800">
                       {project?.techStack?.map((tech) => (
                         <img src={tech} alt={tech} className="h-4 mx-1" />
                       ))}
