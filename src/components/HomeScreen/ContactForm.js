@@ -4,6 +4,7 @@ import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import InputField from "../../common/FormFields/InputField";
 import TextArea from "../../common/FormFields/TextArea";
+import { FaFacebookF, FaGithub, FaLinkedin } from "react-icons/fa";
 
 const ContactForm = () => {
   const form = useRef();
@@ -65,14 +66,19 @@ const ContactForm = () => {
             <InputField
               name="email"
               placeholder="Your Email"
-              label="Name"
+              label="Email"
               type="text"
             />
           </div>
         </div>
 
         <div className="w-80 md:w-96 lg:w-1/2 flex flex-col mt-12">
-          <TextArea name="message" placeholder="Your Message" label="Message" />
+          <TextArea
+            name="message"
+            placeholder="Your Message"
+            label="Message"
+            rows="2"
+          />
         </div>
         <button
           type="submit"
@@ -82,6 +88,31 @@ const ContactForm = () => {
           {loading ? "Sending..." : "Send Message"}
         </button>
       </form>
+      <div className="flex flex-col items-center md:items-end justify-center mt-16">
+        <div className="flex space-x-4">
+          <a
+            href="https://www.facebook.com/tokakirin"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <FaFacebookF className="text-white" />
+          </a>
+          <a
+            href="https://www.linkedin.com/in/mdnrahman/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <FaLinkedin className="text-white" />
+          </a>
+          <a
+            href="https://github.com/Md-Nrahman"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <FaGithub className="text-white" />
+          </a>
+        </div>
+      </div>
     </section>
   );
 };
