@@ -52,7 +52,7 @@ const ContactForm = () => {
         className="flex flex-col items-center justify-center mt-16"
       >
         <ToastContainer />
-        <div className="grid grid-cols-2 w-80 md:w-96 lg:w-1/2 space-x-6">
+        <div className="grid grid-cols-2 w-80 md:w-96 lg:w-1/2 space-x-3">
           <div className="flex flex-col w-full">
             <InputField
               name="name"
