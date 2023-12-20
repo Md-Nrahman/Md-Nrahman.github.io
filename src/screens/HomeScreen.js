@@ -1,10 +1,10 @@
 import React, { useEffect } from "react";
-import Header from "./Header";
-import Introduction from "./Introduction";
-import Skills from "./Skills";
-import Experience from "./Experience";
-import Projects from "./Projects";
-
+import Header from "../components/HomeScreen/Header";
+import Introduction from "../components/HomeScreen/Introduction";
+import Skills from "../components/HomeScreen/Skills";
+import Experience from "../components/HomeScreen/Experience";
+import Projects from "../components/HomeScreen/Projects";
+import ContactForm from "../components/HomeScreen/ContactForm";
 const HomeScreen = () => {
   return (
     <>
@@ -13,6 +13,7 @@ const HomeScreen = () => {
       <Skills />
       <Experience />
       <Projects />
+      <ContactForm />
     </>
   );
 };

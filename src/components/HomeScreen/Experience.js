@@ -1,7 +1,7 @@
 import React from "react";
-import { jobExperience } from "../data/jobExperience";
-import { educationInfo } from "../data/educationInfo";
-import ExperienceCard from "../components/ExperienceCard";
+import { jobExperience } from "../../data/jobExperience";
+import { educationInfo } from "../../data/educationInfo";
+import ExperienceCard from "./ExperienceCard";
 
 const Experience = () => {
   return (
@@ -17,9 +17,9 @@ const Experience = () => {
       <div className="grid md:grid-cols-2 gap-7">
         <div className="mt-8">
           <h3 className="text-white font-medium text-xl text-center">Job</h3>
-          <ol class="relative border-l border-gray-200 dark:border-gray-700 mt-6">
-            {jobExperience.map((exp) => (
-              <ExperienceCard {...exp} />
+          <ol className="relative border-l border-gray-200 dark:border-gray-700 mt-6">
+            {jobExperience.map((exp, index) => (
+              <ExperienceCard key={index} {...exp} />
             ))}
           </ol>
         </div>
@@ -28,9 +28,9 @@ const Experience = () => {
           <h3 className="text-white font-medium text-xl text-center">
             Education
           </h3>
-          <ol class="relative border-l border-gray-200 dark:border-gray-700 mt-6">
-            {educationInfo.map((edu) => (
-              <ExperienceCard {...edu} />
+          <ol className="relative border-l border-gray-200 dark:border-gray-700 mt-6">
+            {educationInfo.map((edu, index) => (
+              <ExperienceCard key={index} {...edu} />
             ))}
           </ol>
         </div>

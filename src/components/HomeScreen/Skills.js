@@ -1,18 +1,18 @@
 import React from "react";
-import Bootstrap from "../assets/images/bootstrap.png";
-import Css from "../assets/images/css3.png";
-import Express from "../assets/images/express.png";
-import Git from "../assets/images/git.png";
-import Html from "../assets/images/html5.png";
-import Illustrator from "../assets/images/illustrator.png";
-import Javascript from "../assets/images/javascript.png";
-import MongoDB from "../assets/images/mongodb.png";
-import Node from "../assets/images/node.png";
-import Photoshop from "../assets/images/photoshop.png";
-import ReactImg from "../assets/images/react.png";
-import Tailwind from "../assets/images/tailwindcss.png";
-import VSCode from "../assets/images/vscode.webp";
-import NextJS from "../assets/images/nextjs.png";
+import Bootstrap from "../../assets/images/bootstrap.png";
+import Css from "../../assets/images/css3.png";
+import Express from "../../assets/images/express.png";
+import Git from "../../assets/images/git.png";
+import Html from "../../assets/images/html5.png";
+import Illustrator from "../../assets/images/illustrator.png";
+import Javascript from "../../assets/images/javascript.png";
+import MongoDB from "../../assets/images/mongodb.png";
+import Node from "../../assets/images/node.png";
+import Photoshop from "../../assets/images/photoshop.png";
+import ReactImg from "../../assets/images/react.png";
+import Tailwind from "../../assets/images/tailwindcss.png";
+import VSCode from "../../assets/images/vscode.webp";
+import NextJS from "../../assets/images/nextjs.png";
 
 const Skills = () => {
   return (
