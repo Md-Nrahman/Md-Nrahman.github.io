@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.1eefd073.css",
-    "main.js": "/static/js/main.5fcc515e.js",
-    "static/js/787.7da95b79.chunk.js": "/static/js/787.7da95b79.chunk.js",
+    "main.css": "/static/css/main.fe431312.css",
+    "main.js": "/static/js/main.23d237d0.js",
+    "static/js/27.e803769c.chunk.js": "/static/js/27.e803769c.chunk.js",
     "static/media/hyundai-car-exchange.png": "/static/media/hyundai-car-exchange.585dbba321fb31b24e5b.png",
     "static/media/wasa.png": "/static/media/wasa.f75a171112a6b0431d1f.png",
     "static/media/ramadan-times.png": "/static/media/ramadan-times.923ff43672c302940587.png",
@@ -26,13 +26,10 @@
     "static/media/css3.png": "/static/media/css3.9fa1c3f36eb5f2a061ba.png",
     "static/media/git.png": "/static/media/git.13ab150a918ba929c6b4.png",
     "static/media/javascript.png": "/static/media/javascript.c020c5a5690ad8deb294.png",
-    "index.html": "/index.html",
-    "main.1eefd073.css.map": "/static/css/main.1eefd073.css.map",
-    "main.5fcc515e.js.map": "/static/js/main.5fcc515e.js.map",
-    "787.7da95b79.chunk.js.map": "/static/js/787.7da95b79.chunk.js.map"
+    "index.html": "/index.html"
   },
   "entrypoints": [
-    "static/css/main.1eefd073.css",
-    "static/js/main.5fcc515e.js"
+    "static/css/main.fe431312.css",
+    "static/js/main.23d237d0.js"
   ]
 }
