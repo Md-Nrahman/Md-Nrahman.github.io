@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.a7e6055e.css",
-    "main.js": "/static/js/main.4e117c2c.js",
+    "main.js": "/static/js/main.ae7da9a9.js",
     "static/js/27.e803769c.chunk.js": "/static/js/27.e803769c.chunk.js",
     "static/media/hyundai-car-exchange.png": "/static/media/hyundai-car-exchange.585dbba321fb31b24e5b.png",
     "static/media/wasa.png": "/static/media/wasa.f75a171112a6b0431d1f.png",
@@ -9,7 +9,7 @@
     "static/media/customs-vat-tax.png": "/static/media/customs-vat-tax.a1e983fd430a3fa26748.png",
     "static/media/sms-gateway.png": "/static/media/sms-gateway.189a6bd3d73d400488a7.png",
     "static/media/Poppins-Regular.ttf": "/static/media/Poppins-Regular.35d26b781dc5fda684cc.ttf",
-    "static/media/Md Naimur Rahman.pdf": "/static/media/Md Naimur Rahman.6107c9a62290825ec3a5.pdf",
+    "static/media/Md Naimur Rahman.pdf": "/static/media/Md Naimur Rahman.bded6590965c6cec8e0a.pdf",
     "static/media/react.png": "/static/media/react.73dbb5bcec516da82694.png",
     "static/media/profile.jpeg": "/static/media/profile.b183944a46ecd16b4d11.jpeg",
     "static/media/vscode.webp": "/static/media/vscode.2837e0f55129ea6edcfc.webp",
@@ -30,6 +30,6 @@
   },
   "entrypoints": [
     "static/css/main.a7e6055e.css",
-    "static/js/main.4e117c2c.js"
+    "static/js/main.ae7da9a9.js"
   ]
 }
