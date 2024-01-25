@@ -33,7 +33,7 @@ export const projectInfo = [
     title: "Wasa Meter Reading",
     description:
       "A web application to monitor the meter reading of the water supply system of Dhaka WASA",
-    url: "https://wasa.suffixit.com:14001/login",
+    url: "https://wasa.suffixit.com",
     image: Wasa,
     techStack: [HtmlImg, CSSImg, ReactImg],
   },
@@ -41,7 +41,7 @@ export const projectInfo = [
     title: "Custom Vat Tax",
     description:
       "A web application to upload and download custom vat tax related documents",
-    url: "http://customsvattaxbd.com:7071/",
+    url: "http://customsvattaxbd.com",
     image: CustomsVatTax,
     techStack: [HtmlImg, CSSImg, NextJS, NodeImg, ExpressImg, MongoDBImg],
   },
