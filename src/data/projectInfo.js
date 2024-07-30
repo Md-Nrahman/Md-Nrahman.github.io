@@ -10,6 +10,7 @@ import HyundaiExchange from "../assets/images/projects/hyundai-car-exchange.png"
 import RamadanTimes from "../assets/images/projects/ramadan-times.png";
 import ReactConference from "../assets/images/projects/react-conference.png";
 import SMSGateway from "../assets/images/projects/sms-gateway.png";
+import TRWBD from "../assets/images/projects/trwbd.png";
 import Wasa from "../assets/images/projects/wasa.png";
 import ReactImg from "../assets/images/react.png";
 import TailwindImg from "../assets/images/tailwindcss.png";
@@ -17,12 +18,12 @@ import Typescript from "../assets/images/typescript.webp";
 
 export const projectInfo = [
   {
-    title: "Hyundai Car Exchange Program",
+    title: "TRW : An International Law Firm.",
     description:
-      "A dynamic web application designed to revolutionize the buying and selling experience for four wheels",
-    url: "https://exchangehyundai.ftl.net.bd/",
-    image: HyundaiExchange,
-    techStack: [HtmlImg, TailwindImg, NextJS],
+      "A personal portfolio website for an international law firm. The website is designed to showcase the services and the team of the firm",
+    url: "https://trwbd.com/",
+    image: TRWBD,
+    techStack: [HtmlImg, TailwindImg, NextJS, NodeImg, ExpressImg, MongoDBImg],
   },
   {
     title: "React Conference",
@@ -63,5 +64,13 @@ export const projectInfo = [
     url: "https://ramadantimes.netlify.app/",
     image: RamadanTimes,
     techStack: [HtmlImg, CSSImg, ReactImg, NodeImg, ExpressImg, MongoDBImg],
+  },
+  {
+    title: "Hyundai Car Exchange Program",
+    description:
+      "A dynamic web application designed to revolutionize the buying and selling experience for four wheels",
+    url: "https://exchangehyundai.ftl.net.bd/",
+    image: HyundaiExchange,
+    techStack: [HtmlImg, TailwindImg, NextJS],
   },
 ];
