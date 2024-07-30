@@ -1,5 +1,6 @@
 import CSSImg from "../assets/images/css3.png";
 import ExpressImg from "../assets/images/express.png";
+import GraphQl from "../assets/images/graphql.png";
 import HtmlImg from "../assets/images/html5.png";
 import MongoDBImg from "../assets/images/mongodb.png";
 import NextJS from "../assets/images/nextjs.png";
@@ -7,10 +8,12 @@ import NodeImg from "../assets/images/node.png";
 import CustomsVatTax from "../assets/images/projects/customs-vat-tax.png";
 import HyundaiExchange from "../assets/images/projects/hyundai-car-exchange.png";
 import RamadanTimes from "../assets/images/projects/ramadan-times.png";
+import ReactConference from "../assets/images/projects/react-conference.png";
 import SMSGateway from "../assets/images/projects/sms-gateway.png";
 import Wasa from "../assets/images/projects/wasa.png";
 import ReactImg from "../assets/images/react.png";
 import TailwindImg from "../assets/images/tailwindcss.png";
+import Typescript from "../assets/images/typescript.webp";
 
 export const projectInfo = [
   {
@@ -20,6 +23,14 @@ export const projectInfo = [
     url: "https://exchangehyundai.ftl.net.bd/",
     image: HyundaiExchange,
     techStack: [HtmlImg, TailwindImg, NextJS],
+  },
+  {
+    title: "React Conference",
+    description:
+      "A basic web application to view the details of a conference, To view please click on the items from the conference list. Used Graphql for fetching data",
+    url: "https://react-conference-three.vercel.app/",
+    image: ReactConference,
+    techStack: [HtmlImg, TailwindImg, NextJS, Typescript, GraphQl],
   },
   {
     title: "Suffix IT SMS Gateway",
