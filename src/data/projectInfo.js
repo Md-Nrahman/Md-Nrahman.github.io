@@ -20,7 +20,7 @@ export const projectInfo = [
   {
     title: "TRW : An International Law Firm.",
     description:
-      "A personal portfolio website for an international law firm. The website is designed to showcase the services and the team of the firm",
+      "A personal portfolio website for an international law firm with dynamic Articles Section",
     url: "https://trwbd.com/",
     image: TRWBD,
     techStack: [HtmlImg, TailwindImg, NextJS, NodeImg, ExpressImg, MongoDBImg],
@@ -28,7 +28,7 @@ export const projectInfo = [
   {
     title: "React Conference",
     description:
-      "A basic web application to view the details of a conference, To view please click on the items from the conference list. Used Graphql for fetching data",
+      "A basic web application, used Graphql for fetching data, To view please click on the items from the conference list. ",
     url: "https://react-conference-three.vercel.app/",
     image: ReactConference,
     techStack: [HtmlImg, TailwindImg, NextJS, Typescript, GraphQl],
