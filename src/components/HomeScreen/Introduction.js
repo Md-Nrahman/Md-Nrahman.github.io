@@ -1,7 +1,7 @@
 import React from "react";
-import ProfileImg from "../../assets/images/profile.jpeg";
 import { IoCloudDownloadOutline } from "react-icons/io5";
 import Resume from "../../assets/files/Md Naimur Rahman.pdf";
+import ProfileImg from "../../assets/images/profile.jpeg";
 import BgShape from "../../assets/images/shape.png";
 
 const Introduction = () => {
