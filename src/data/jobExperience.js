@@ -2,7 +2,7 @@ export const jobExperience = [
   {
     institution: "Suffix IT Ltd.",
     designation: "Software Engineer",
-    duration: "January, 2021 - Present",
+    duration: "January, 2021 - July, 2024",
     description: [
       "Implemented secure authentication using JWT tokens and refresh tokens, ensuring robust user authentication and authorization mechanisms.",
       "Proficient in building role-based applications, allowing for dynamic rendering and access control based on user roles.",
