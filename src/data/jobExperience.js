@@ -1,8 +1,21 @@
 export const jobExperience = [
   {
+    institution: "Shadhin Music Ltd.",
+    designation: "Software Engineer",
+    duration: "October, 2024 - Present",
+    description: [
+      "Engineered a dynamic homepage (https://shadhinmusic.com) capable of rendering thousands of data at once efficiently",
+      "Implemented advanced caching strategies using Worker.js and IndexedDB",
+      "Applied advanced performance optimization techniques, including code splitting, lazy loading, efficient state management, and asset compression, alongside rigorous code refactoring to enhance maintainability, scalability, and user experience",
+      "Transformed Figma designs into pixel-perfect, responsive, and visually engaging user interfaces.",
+      "Engineered custom audio and video players with robust, user-centric functionalities.",
+      "Executed successful campaigns with major partners, including Grameenphone, Robi, bKash",
+    ],
+  },
+  {
     institution: "Suffix IT Ltd.",
     designation: "Software Engineer",
-    duration: "January, 2021 - July, 2024",
+    duration: "January, 2021 - September, 2024",
     description: [
       "Implemented secure authentication using JWT tokens and refresh tokens, ensuring robust user authentication and authorization mechanisms.",
       "Proficient in building role-based applications, allowing for dynamic rendering and access control based on user roles.",
