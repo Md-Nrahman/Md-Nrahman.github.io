@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.a7e6055e.css",
-    "main.js": "/static/js/main.66e9147b.js",
+    "main.js": "/static/js/main.7254e25d.js",
     "static/js/27.e803769c.chunk.js": "/static/js/27.e803769c.chunk.js",
     "static/media/hyundai-car-exchange.png": "/static/media/hyundai-car-exchange.585dbba321fb31b24e5b.png",
     "static/media/wasa.png": "/static/media/wasa.f75a171112a6b0431d1f.png",
@@ -35,6 +35,6 @@
   },
   "entrypoints": [
     "static/css/main.a7e6055e.css",
-    "static/js/main.66e9147b.js"
+    "static/js/main.7254e25d.js"
   ]
 }
