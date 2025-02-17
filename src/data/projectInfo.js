@@ -1,5 +1,6 @@
 import CSSImg from "../assets/images/css3.png";
 import ExpressImg from "../assets/images/express.png";
+import GoChat from "../assets/images/go-chat.png";
 import GraphQl from "../assets/images/graphql.png";
 import HtmlImg from "../assets/images/html5.png";
 import MongoDBImg from "../assets/images/mongodb.png";
@@ -17,6 +18,14 @@ import TailwindImg from "../assets/images/tailwindcss.png";
 import Typescript from "../assets/images/typescript.webp";
 
 export const projectInfo = [
+  {
+    title: "Go Chat",
+    description:
+      "A realtime chatting application",
+    url: "https://live-chat-via-socket-react.netlify.app/",
+    image: GoChat,
+    techStack: [HtmlImg, TailwindImg, ReactImg],
+  },
   {
     title: "TRW : An International Law Firm.",
     description:
