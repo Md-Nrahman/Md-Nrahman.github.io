@@ -1,13 +1,14 @@
 {
   "files": {
     "main.css": "/static/css/main.a7e6055e.css",
-    "main.js": "/static/js/main.7cc47b4d.js",
+    "main.js": "/static/js/main.e34f03ec.js",
     "static/js/27.e803769c.chunk.js": "/static/js/27.e803769c.chunk.js",
     "static/media/hyundai-car-exchange.png": "/static/media/hyundai-car-exchange.585dbba321fb31b24e5b.png",
     "static/media/wasa.png": "/static/media/wasa.f75a171112a6b0431d1f.png",
     "static/media/ramadan-times.png": "/static/media/ramadan-times.923ff43672c302940587.png",
     "static/media/trwbd.png": "/static/media/trwbd.bef4a8232b0e82cfe974.png",
     "static/media/react-conference.png": "/static/media/react-conference.4dd196896ca0b4751281.png",
+    "static/media/go-chat.png": "/static/media/go-chat.7b27def342e1a0e7c5d7.png",
     "static/media/customs-vat-tax.png": "/static/media/customs-vat-tax.a1e983fd430a3fa26748.png",
     "static/media/sms-gateway.png": "/static/media/sms-gateway.189a6bd3d73d400488a7.png",
     "static/media/Poppins-Regular.ttf": "/static/media/Poppins-Regular.35d26b781dc5fda684cc.ttf",
@@ -35,6 +36,6 @@
   },
   "entrypoints": [
     "static/css/main.a7e6055e.css",
-    "static/js/main.7cc47b4d.js"
+    "static/js/main.e34f03ec.js"
   ]
 }
