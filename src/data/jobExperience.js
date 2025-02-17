@@ -17,6 +17,7 @@ export const jobExperience = [
     designation: "Software Engineer",
     duration: "January, 2021 - September, 2024",
     description: [
+      "Developed classified Softwares like:Sales Force, ERP, SAAS Softwares, Inventory Management etc. with React JS & Next.JS For Suffix IT Ltd",
       "Implemented secure authentication using JWT tokens and refresh tokens, ensuring robust user authentication and authorization mechanisms.",
       "Proficient in building role-based applications, allowing for dynamic rendering and access control based on user roles.",
       "Integrated Socket.io to implement live notifications and alerts, enhancing real-time communication and user engagement.",
