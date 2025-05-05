@@ -1,0 +1,58 @@
+export const projectInfo = [
+  {
+    title: "Go Chat",
+    description: "A realtime chatting application",
+    link: "https://live-chat-via-socket-react.netlify.app/",
+    image: "go-chat.png",
+    technologies: ["html5.png", "tailwindcss.png", "react.png"],
+  },
+  {
+    title: "TRW : An International Law Firm.",
+    description: "A personal portfolio website for an international law firm with dynamic Articles Section",
+    link: "https://trwbd.com/",
+    image: "trwbd.png",
+    technologies: ["html5.png", "tailwindcss.png", "nextjs.png", "node.png", "express.png", "mongodb.png"],
+  },
+  {
+    title: "React Conference",
+    description: "A basic web application, used Graphql for fetching data, To view please click on the items from the conference list.",
+    link: "https://react-conference-three.vercel.app/",
+    image: "react-conference.png",
+    technologies: ["html5.png", "tailwindcss.png", "nextjs.png", "typescript.webp", "graphql.png"],
+  },
+  {
+    title: "Suffix IT SMS Gateway",
+    description: "A dynamic web application for sending bulk SMS to the customers",
+    link: "https://bulkmsg.suffixit.com/",
+    image: "sms-gateway.png",
+    technologies: ["html5.png", "react.png"],
+  },
+  {
+    title: "Wasa Meter Reading",
+    description: "A web application to monitor the meter reading of the water supply system of Dhaka WASA",
+    link: "https://wasa.suffixit.com",
+    image: "wasa.png",
+    technologies: ["html5.png", "css3.png", "react.png"],
+  },
+  {
+    title: "Custom Vat Tax",
+    description: "A web application to upload and download custom vat tax related documents",
+    link: "http://customsvattaxbd.com",
+    image: "customs-vat-tax.png",
+    technologies: ["html5.png", "css3.png", "nextjs.png", "node.png", "express.png", "mongodb.png"],
+  },
+  {
+    title: "Ramadan Times",
+    description: "A web application to view the Sehri and Iftar time of a particular location",
+    link: "https://ramadantimes.netlify.app/",
+    image: "ramadan-times.png",
+    technologies: ["html5.png", "css3.png", "react.png", "node.png", "express.png", "mongodb.png"],
+  },
+  {
+    title: "Hyundai Car Exchange Program",
+    description: "A dynamic web application designed to revolutionize the buying and selling experience for four wheels",
+    link: "https://exchangehyundai.ftl.net.bd/",
+    image: "hyundai-car-exchange.png",
+    technologies: ["html5.png", "tailwindcss.png", "nextjs.png"],
+  },
+];
