@@ -1,41 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.a7e6055e.css",
-    "main.js": "/static/js/main.e34f03ec.js",
-    "static/js/27.e803769c.chunk.js": "/static/js/27.e803769c.chunk.js",
-    "static/media/hyundai-car-exchange.png": "/static/media/hyundai-car-exchange.585dbba321fb31b24e5b.png",
-    "static/media/wasa.png": "/static/media/wasa.f75a171112a6b0431d1f.png",
-    "static/media/ramadan-times.png": "/static/media/ramadan-times.923ff43672c302940587.png",
-    "static/media/trwbd.png": "/static/media/trwbd.bef4a8232b0e82cfe974.png",
-    "static/media/react-conference.png": "/static/media/react-conference.4dd196896ca0b4751281.png",
-    "static/media/go-chat.png": "/static/media/go-chat.7b27def342e1a0e7c5d7.png",
-    "static/media/customs-vat-tax.png": "/static/media/customs-vat-tax.a1e983fd430a3fa26748.png",
-    "static/media/sms-gateway.png": "/static/media/sms-gateway.189a6bd3d73d400488a7.png",
-    "static/media/Poppins-Regular.ttf": "/static/media/Poppins-Regular.35d26b781dc5fda684cc.ttf",
-    "static/media/graphql.png": "/static/media/graphql.cf35cb3ebe58ba07ecd0.png",
-    "static/media/react.png": "/static/media/react.73dbb5bcec516da82694.png",
+    "main.css": "/static/css/main.8b23edfc.css",
+    "main.js": "/static/js/main.e040c072.js",
     "static/media/profile.jpeg": "/static/media/profile.b183944a46ecd16b4d11.jpeg",
-    "static/media/vscode.webp": "/static/media/vscode.2837e0f55129ea6edcfc.webp",
-    "static/media/node.png": "/static/media/node.abfaef34ea49d0c7cd3c.png",
-    "static/media/illustrator.png": "/static/media/illustrator.0f15b18178f91c8776a1.png",
     "static/media/Md Naimur Rahman.pdf": "/static/media/Md Naimur Rahman.f984b517e0745eed516e.pdf",
-    "static/media/mongodb.png": "/static/media/mongodb.c0995e1ff9906d75e490.png",
-    "static/media/photoshop.png": "/static/media/photoshop.e3c870e209fb5257092e.png",
-    "static/media/bootstrap.png": "/static/media/bootstrap.ac392fdc4c574f23a1db.png",
-    "static/media/express.png": "/static/media/express.7a98f3e44d024e880b83.png",
-    "static/media/shape.png": "/static/media/shape.773ef27d2eed99fe18d2.png",
-    "static/media/Southam Demo.otf": "/static/media/Southam Demo.d51836cec7e6dbc4d3aa.otf",
-    "static/media/nextjs.png": "/static/media/nextjs.a725f5cb51998c30c03a.png",
-    "static/media/tailwindcss.png": "/static/media/tailwindcss.37bd124a06d8d3842c67.png",
-    "static/media/css3.png": "/static/media/css3.9fa1c3f36eb5f2a061ba.png",
-    "static/media/git.png": "/static/media/git.13ab150a918ba929c6b4.png",
-    "static/media/redux.png": "/static/media/redux.543b98d3c75b48613322.png",
-    "static/media/javascript.png": "/static/media/javascript.c020c5a5690ad8deb294.png",
-    "static/media/typescript.webp": "/static/media/typescript.951a3036b03fd09e20a5.webp",
-    "index.html": "/index.html"
+    "index.html": "/index.html",
+    "main.8b23edfc.css.map": "/static/css/main.8b23edfc.css.map",
+    "main.e040c072.js.map": "/static/js/main.e040c072.js.map"
   },
   "entrypoints": [
-    "static/css/main.a7e6055e.css",
-    "static/js/main.e34f03ec.js"
+    "static/css/main.8b23edfc.css",
+    "static/js/main.e040c072.js"
   ]
 }
