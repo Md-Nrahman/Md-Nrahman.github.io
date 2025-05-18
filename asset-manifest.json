@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.8b23edfc.css",
-    "main.js": "/static/js/main.e040c072.js",
+    "main.css": "/static/css/main.7f26f9f5.css",
+    "main.js": "/static/js/main.73cedf31.js",
     "static/media/profile.jpeg": "/static/media/profile.b183944a46ecd16b4d11.jpeg",
     "static/media/Md Naimur Rahman.pdf": "/static/media/Md Naimur Rahman.f984b517e0745eed516e.pdf",
     "index.html": "/index.html",
-    "main.8b23edfc.css.map": "/static/css/main.8b23edfc.css.map",
-    "main.e040c072.js.map": "/static/js/main.e040c072.js.map"
+    "main.7f26f9f5.css.map": "/static/css/main.7f26f9f5.css.map",
+    "main.73cedf31.js.map": "/static/js/main.73cedf31.js.map"
   },
   "entrypoints": [
-    "static/css/main.8b23edfc.css",
-    "static/js/main.e040c072.js"
+    "static/css/main.7f26f9f5.css",
+    "static/js/main.73cedf31.js"
   ]
 }
