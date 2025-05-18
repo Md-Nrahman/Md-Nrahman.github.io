@@ -112,7 +112,8 @@ const Contact = () => {
 
           <div className="flex justify-center mt-12 gap-6">
             <a
-              href="#"
+              href="https://github.com/Md-Nrahman"
+              target="_blank"
               className="text-zinc-400 hover:text-purple-400 transition-colors"
             >
               <PulsingIcon
@@ -122,7 +123,8 @@ const Contact = () => {
               />
             </a>
             <a
-              href="#"
+              href="http://linkedin.com/in/mdnrahman/"
+              target="_blank"
               className="text-zinc-400 hover:text-pink-400 transition-colors"
             >
               <PulsingIcon
@@ -132,7 +134,7 @@ const Contact = () => {
               />
             </a>
             <a
-              href="#"
+              href="mailto:md.naimur.rahman.naim@gmail.com"
               className="text-zinc-400 hover:text-blue-400 transition-colors"
             >
               <PulsingIcon icon={Mail} color={theme.iconColors[2]} size={28} />

@@ -58,7 +58,7 @@ const HeroSection = () => {
                   initial={{ opacity: 0 }}
                   animate={{ opacity: 1 }}
                   transition={{ delay: 0.5, duration: 0.5 }}
-                  className="text-zinc-300 mb-8 max-w-lg"
+                  className="text-zinc-300 mb-8 max-w-lg min-h-24"
                 >
                   <Typewriter
                     text="Resolving design problems, building smart user interfaces and useful interactions, developing rich web applications and seamless web experiences."
@@ -106,19 +106,21 @@ const HeroSection = () => {
                   className="flex gap-6 mt-8"
                 >
                   <a
-                    href="#"
+                    href="https://github.com/Md-Nrahman"
+                    target="_blank"
                     className="text-zinc-400 hover:text-purple-400 transition-colors"
                   >
                     <FloatingIcon icon={Github} color={theme.iconColors[0]} />
                   </a>
                   <a
-                    href="#"
+                    href="http://linkedin.com/in/mdnrahman/"
+                    target="_blank"
                     className="text-zinc-400 hover:text-pink-400 transition-colors"
                   >
                     <FloatingIcon icon={Linkedin} color={theme.iconColors[1]} />
                   </a>
                   <a
-                    href="#"
+                    href="mailto:md.naimur.rahman.naim@gmail.com"
                     className="text-zinc-400 hover:text-blue-400 transition-colors"
                   >
                     <FloatingIcon icon={Mail} color={theme.iconColors[2]} />

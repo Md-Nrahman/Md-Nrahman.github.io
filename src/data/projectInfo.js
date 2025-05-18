@@ -1,5 +1,19 @@
 export const projectInfo = [
   {
+    title: "Shadhin Music",
+    description: "Shadhin is Bangladesh's audio and video streaming service, where users have access to unlimited streaming of millions of Bangla songs. Listen to your favorite music anytime, anywhere.",
+    link: "https://shadhinmusic.com/",
+    image: "shadhin-music.png",
+    technologies: ["html5.png", "tailwindcss.png", "nextjs.png"],
+  },
+  {
+    title: "Robi MyPlay",
+    description: "Robi MyPlay is a subscription-based mobile gaming platform offered by Robi Axiata Limited in Bangladesh. Launched in collaboration with GAC Media, it provides access to over 21,000 games across various genres, including action, puzzle, sports, and arcade. Subscribers can enjoy these games through the MyPlay app, WAP, or the official website.",
+    link: "https://myplay.games/",
+    image: "robi-myplay.png",
+    technologies: ["html5.png", "tailwindcss.png", "react.png"],
+  },
+  {
     title: "Go Chat",
     description: "A realtime chatting application",
     link: "https://live-chat-via-socket-react.netlify.app/",
