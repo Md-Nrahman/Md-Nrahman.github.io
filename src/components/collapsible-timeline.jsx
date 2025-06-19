@@ -48,7 +48,7 @@ function TimelineItem({ item, index, colorTheme }) {
         <p className="text-zinc-300 mb-2">{item.title}</p>
 
         {/* Collapsed content preview */}
-        {!isExpanded && <p className="text-zinc-400 mb-2">{previewContent}</p>}
+        {!isExpanded && <p className="text-zinc-400 text-sm mb-2">{previewContent}</p>}
 
         {/* Expandable content */}
         <AnimatePresence>
@@ -58,7 +58,7 @@ function TimelineItem({ item, index, colorTheme }) {
               animate={{ opacity: 1, height: "auto" }}
               exit={{ opacity: 0, height: 0 }}
               transition={{ duration: 0.3 }}
-              className="list-disc pl-5 space-y-1 text-zinc-400 overflow-hidden"
+              className="list-disc pl-5 space-y-1 text-zinc-400 text-sm overflow-hidden"
             >
               {item.description.map((point, i) => (
                 <li key={i}>{point}</li>
